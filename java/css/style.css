@@ -1,33 +1,36 @@
 *{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 22px;
-
-}
-body{
-    text-align: center;
-    background-color: aqua;
-    color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+body{
+    text-align: center;
+    background-color: rgb(123, 7, 255);
+    color: black;
+}
+
 li{
     list-style: none;
 }
+
 #container{
     width: 290px;
     text-align: center;
     height: auto;
     margin: 4px auto;
 }
+
 #calculadora{
     width: 234px;
     height: 230px;
     margin: 0 auto;
     padding: 2px;
-    background-color: gray;
+    background-color: #6b6e6c;
 }
+
 .input-valor{
     margin: 8px auto;
     width: 95%;
@@ -35,17 +38,18 @@ li{
     font-size: 16px;
     overflow: hidden;
     text-align: right;
-    color: black;
+    color: #48484d;
     padding: 4px;
-    background-color: aliceblue;
-    box-shadow: inset -1px -1px 4px 1px white;
+    background-color: #fff;
+    box-shadow: inset -1px -1px 4px 1px #eee;
 }
+
 .key li{
     width: 50px;
     height: 30px;
     border-radius: 3px;
-    color: aliceblue;
-    background-color: aqua;
+    color: #fff;
+    background-color: #6c73fa;
     cursor: pointer;
     float: left;
     margin: 0px -3px 5px 8px;
