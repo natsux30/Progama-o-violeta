@@ -2,14 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 22px;
+    font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
+
+  
 
 body{
     text-align: center;
-    background-color: rgb(123, 7, 255);
-    color: black;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Y9r-e_sGBP_c2MMwjPMWKF4NwVG4R_b-Kw&usqp=CAU);
+    color: rgb(5, 194, 219);
+    background-repeat: 
+   
+        
 }
 
 li{
@@ -24,36 +30,36 @@ li{
 }
 
 #calculadora{
-    width: 234px;
-    height: 230px;
+    width: 454px;
+    height: 570px;
     margin: 0 auto;
-    padding: 2px;
-    background-color: #6b6e6c;
+    padding: 5px;
+    background-color: #00fff2;
 }
 
 .input-valor{
-    margin: 8px auto;
+    margin: 7px auto;
     width: 95%;
-    height: 30px;
-    font-size: 16px;
+    height: 80px;
+    font-size: 26px;
     overflow: hidden;
     text-align: right;
     color: #48484d;
     padding: 4px;
-    background-color: #fff;
+    background-color: rgb(52, 253, 11);
     box-shadow: inset -1px -1px 4px 1px #eee;
 }
 
 .key li{
-    width: 50px;
-    height: 30px;
+    width: 115px;
+    height: 70px;
     border-radius: 3px;
     color: #fff;
     background-color: #6c73fa;
     cursor: pointer;
     float: left;
-    margin: 0px -3px 5px 8px;
-    line-height: 30px;
+    margin: 0px 25px 7px 8px;
+    line-height: 70px;
     text-align: center;
     box-shadow: 0px 3px 1px 0px;
 }
