@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <title>Neon text Display Using HTML and CSS</title>
+    <style>
+         body {
+            margin: 10px;
+            font-family: sans-sarif;
+            height: 100%;
+        }
+          
+        /* values of properties of animation assigned */
+        .neon-header {
+            text-align: center;
+            line-height: 2;
+            color: green;
+            animation: neon 1s ease-in-out infinite alternate;
+            margin-left: 200px;
+        }
+  
+        /* various colour combinations used to create
+         neon effect */
+        @keyframes neon {
+            from {
+                text-shadow: 0 0 35px #85FF64,
+                             0 0 40px #2BBF03,
+                             0 0 55px #141ae2;
+            }}
+    </style>
+</head>
+  
+<body>
+    <center>
+    <!-- text we want to display -->
+    <span class="neon-header">
+        <h1>GeeksforGeeks</h1>
+    </span>
+        <p1>A Computer Science Portal for Geeks</p1>
+    </center>
+</body>
+  
+</html>
